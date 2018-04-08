@@ -1,0 +1,74 @@
+*{
+	padding: 0
+	margin: 0
+}
+	@font-face {
+    font-family: 'roboto_condenseditalic';
+    src: url('../font/robotocondensed-italic-webfont.woff2') format('woff2'),
+         url('/font/robotocondensed-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family: "roboto_condenseditalic";
+
+background: #FFFFFF;
+color:#646464;
+font-size:2em;
+;
+
+}
+h1	
+{
+	
+	margin: 0.1em;
+	
+	text-align: right;
+	text-shadow: 4px 4px 4px rgba(255,255,255,0.5)
+}
+header
+{
+	background:	url(images/ECBTI-1.jpg) repeat;
+	margin: 0	 absolute;
+	padding: 5em;
+	
+}
+
+nav#menú> ul > li
+{
+#nav > ul > li:last-child
+			{
+				padding-right: 0;
+			}
+
+			#nav > ul > li > a,
+			#nav > ul > li > span
+			{
+				display: block;
+				margin-left: 0.7em;
+				padding: 0.80em 1.2em;
+				letter-spacing: 0.06em;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 1.1em;
+				outline: 0;
+				color: #333;
+			}
+
+			#nav li.active a
+			{
+				background: #e95d3c;
+				border-radius: 5px;
+				color: #FFF;
+			}
+
+			#nav > ul > li > ul
+			{
+				display: none;
+			}
+}
+		
+		
+			
+			
