@@ -13,62 +13,72 @@
 
 body{font-family: "roboto_condenseditalic";
 
-background: #FFFFFF;
+
 color:#646464;
 font-size:2em;
-;
+
 
 }
 h1	
-{
-	
+{	
 	margin: 0.1em;
-	
 	text-align: right;
 	text-shadow: 4px 4px 4px rgba(255,255,255,0.5)
+}
+
+h2,h3	
+{	
+	margin: 0.1em;
+	font-size:1em;
+	text-align: center;
+	text-shadow: 3px 3px 3px rgba(255,255,255,0.5)
 }
 header
 {
 	background:	url(images/ECBTI-1.jpg) repeat;
 	margin: 0	 absolute;
 	padding: 5em;
+}
+
+section#contenedor
+{
+	background:  #43C7F4;
+	margin: 0em;
+	max-width: 2480px;
+	padding:0.25em;
+	text-align: center;
+	color: #ffffff;
+}
+		
+section#lectura1{
+background: #005883;
+max-width: 450px ;
+padding:3em;
+text-align: left;	
+display: inline-block;		
+
+}	
+	section#lectura2{
+background: #005883;s
+margin: 0.5em auto;
+max-width: 450px;
+padding:3em;
+text-align: left;	
+display: inline-block;	
+
+}		
+	
+article{
+	font-size:0.7em;
+	margin: 0em auto;
+}		
+
+footer{
+	background:	url(images/img01.jpg) repeat;
+	margin: 0em;
+	max-width: 2480px;
+	padding:0.25em;
+	text-align: center;
+	color: #F0B429;
 	
 }
-
-nav#menú> ul > li
-{
-#nav > ul > li:last-child
-			{
-				padding-right: 0;
-			}
-
-			#nav > ul > li > a,
-			#nav > ul > li > span
-			{
-				display: block;
-				margin-left: 0.7em;
-				padding: 0.80em 1.2em;
-				letter-spacing: 0.06em;
-				text-decoration: none;
-				text-transform: uppercase;
-				font-size: 1.1em;
-				outline: 0;
-				color: #333;
-			}
-
-			#nav li.active a
-			{
-				background: #e95d3c;
-				border-radius: 5px;
-				color: #FFF;
-			}
-
-			#nav > ul > li > ul
-			{
-				display: none;
-			}
-}
-		
-		
-			
-			
