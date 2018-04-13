@@ -14,62 +14,129 @@
 body{font-family: "roboto_condenseditalic";
 
 
-color:#646464;
+color:#FFFFFF;
 font-size:2em;
 
+}
 
+header
+{
+	background: #43C7F4; 
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding: 0.5em;
+	padding-bottom: 0em;
 }
-h1	
-{	
-	margin: 0.1em;
-	text-align: right;
-	text-shadow: 4px 4px 4px rgba(255,255,255,0.5)
-}
+
+h1
+{
+	text-align: center;
+	margin-top:0em;
+	margin-bottom: 0em; 
+	color: #FFFFFF;
+	text-shadow: black 6px 6px 4px;
+}	
 
 h2,h3	
 {	
 	margin: 0.1em;
+	line-height: 1px;
 	font-size:1em;
 	text-align: center;
-	text-shadow: 3px 3px 3px rgba(255,255,255,0.5)
+	text-shadow: grey 6px 6px 3px;
+	color: #000000;
 }
-header
+
+h4
 {
-	background:	url(images/ECBTI-1.jpg) repeat;
-	margin: 0	 absolute;
-	padding: 5em;
+	color: #000000;
 }
+
+ul{
+margin-top: 0.5em;
+text-align: top;
+
+}
+
+nav > ul > li 
+
+{
+	border-radius: 0.5em;
+	display: block;
+	border: #000000 2px solid;
+	text-align: center;
+	margin-right: : 0.4em;
+	padding-top: 0em;
+	float: left;
+	width: 10em;s
+	letter-spacing: 0.008em;
+	font-size:0.8em;
+	background:#F0B429;		
+	
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+
+}
+input:focus
+{
+box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;
+
+}
+
 
 section#contenedor
 {
+
 	background:  #43C7F4;
-	margin: 0em;
+	margin-bottom: 0em;
 	max-width: 2480px;
-	padding:0.25em;
+	padding:0em;
 	text-align: center;
-	color: #ffffff;
+	color: #000000;
+}
+
+div#banner
+{
+	padding: 3.3em;
+background:	url(images/ECBTI-2.jpg) repeat;
 }
 		
 section#lectura1{
-background: #005883;
-max-width: 450px ;
-padding:3em;
+vertical-align: top;
+border: black 2px solid;
+background: #F0B429;
+margin: 1em auto;
+margin-right: 2em;
+height: 455px;
+width: 570px ;
+padding:1em;
 text-align: left;	
-display: inline-block;		
+display: inline-block;	
+color: #000000;	
 
 }	
 	section#lectura2{
-background: #005883;s
-margin: 0.5em auto;
-max-width: 450px;
-padding:3em;
+
+background: #F0B429;
+margin: 1em auto;
+margin-left: 2em;
+height: 455px;
+width: 570px ;
+border: black 2px solid;
+padding:1em;
 text-align: left;	
 display: inline-block;	
+color: #000000;
 
 }		
 	
 article{
 	font-size:0.7em;
+	text-align: top;
+	padding:0.5em;
 	margin: 0em auto;
 }		
 
@@ -81,4 +148,11 @@ footer{
 	text-align: center;
 	color: #F0B429;
 	
+
 }
+div#creditos
+{
+	background: #FFFFFF;
+	font-size:0.7em;
+		
+	}
