@@ -789,6 +789,26 @@
 			font-size: 2.8em;
 			font-weight: 600;
 		}
+		
+	#logon
+	{
+		position: relative;
+		left: 0em;
+		top: 3em;
+	}
+	
+		#logon h1
+		{
+		}
+	
+		#logon a
+		{
+			display: block;
+
+			text-decoration: none;
+			font-size: 2.8em;
+			font-weight: 600;
+		}
 
 /*********************************************************************************/
 /* Nav                                                                           */
@@ -849,7 +869,9 @@
 		background-size: cover;
 		color: #005883;
 	}
-
+#banner2 { 
+  background-image: url(../images/bannerUNAD_A.jpg);
+}
 /*********************************************************************************/
 /* Main                                                                          */
 /*********************************************************************************/
