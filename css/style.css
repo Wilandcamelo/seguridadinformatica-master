@@ -6,8 +6,16 @@
 
 @charset 'UTF-8';
 
-@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
+}
+	@font-face {
+    font-family: 'roboto_condenseditalic';
+    src: url('../font/robotocondensed-italic-webfont.woff2') format('woff2'),
+         url('/font/robotocondensed-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -19,7 +27,7 @@
 
 	body,input,textarea,select
 	{
-		font-family: 'Roboto Condensed', sans-serif;
+		font-family: 'roboto_condenseditalic', sans-serif;
 		font-weight: 300;
 		font-size: 11pt;
 		line-height: 1.75em;
@@ -29,6 +37,7 @@
 	{
 		letter-spacing: 1px;
 		text-transform: uppercase;
+		color: #000;
 		font-weight: 300;
 	}
 	
@@ -92,11 +101,14 @@
 	{
 		margin-bottom: 2em;
 		line-height: 1.7em;
+
 	}
 	
 		header h2
 		{
 			font-size: 2.5em;
+			padding: 0.5em;
+			margin-bottom: 0em;
 		}
 
 		header .byline
@@ -105,6 +117,8 @@
 			margin: 0.5em 0 0 0;
 			padding: 0 0 0.5em 0;
 			text-transform: uppercase;
+			text-align: center;
+			vertical-align: text-top;
 			font-size: 1.4em;
 		}
 		
@@ -141,8 +155,15 @@
 		.row > section,
 		.row > article
 		{
-			margin-bottom: 0;
+			margin-bottom: 1em;
+			text-align: left;
+
 		}
+
+	section#tweet{
+		color: #fff;
+	}
+
 
 	/* Images */
 
@@ -763,7 +784,11 @@
 		#header .container
 		{
 			position: relative;
-			padding: 4em 0em;
+			margin-left: 0em;
+			margin-right: 0em; 
+			background:	url(images/ECBTI-2.jpg) repeat;
+			padding: 7em 0em;
+
 		}
 
 /*********************************************************************************/
@@ -779,6 +804,8 @@
 	
 		#logo h1
 		{
+			color: #FFFFFF;
+			text-shadow: black 6px 6px 4px;S
 		}
 	
 		#logo a
@@ -876,21 +903,40 @@
 /* Main                                                                          */
 /*********************************************************************************/
 
+section#Objetivos
+{
+	background: #fff;
+}
+
 	#page
 	{
-		position: relative;
+		
+		padding: 0em;
+		padding-bottom: 0px;
+		margin-bottom: 0em;
 		background: #fff;
 	}
 
 	#main
 	{
+		
 		border-top: 1px solid;
+		margin-top: 0em;
+		
+		vertical-align: text-top;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		background:#43C7F4;
 		border-color: rgba(0,0,0,.2);
+	}
+
+	main.container{
+		text-align: left;
 	}
 	
 	.sidebar header h2
 	{
-		font-size: 1.6em;
+		font-size: 1.6em;s
 	}
 
 /*********************************************************************************/
@@ -901,18 +947,22 @@
 	{
 		position: relative;
 		color: rgba(255,255,255,.4);
+
 	}
 	
 	#footer .container
 	{
-		
+		color: #fff;
 	}
 
 	#footer h2
 	{
 		padding-bottom: 1.5em;
-		font-size: 1.6em;
-		color: #005883;
+		font-size: 1.6em;	
+	}
+	#foot h2
+	{
+		color: #fff;
 	}
 
 	#footer strong
@@ -927,7 +977,7 @@
 	#copyright
 	{
 		position: relative;
-		padding: 3em 0em;
+		padding: 0em 0em;
 		border-top: 1px solid #303030;
 		letter-spacing: 1px;
 		text-align: center;
@@ -965,6 +1015,7 @@
 	#featured
 	{
 		position: relative;
+		color: #000;
 	}
 	
 	#featured .divider
@@ -975,10 +1026,31 @@
 	#featured .box
 	{
 		background: #FFF;
-		padding: 1.4em;
+		padding: 3em;
 		font-size: 0.95em;
+		color: #000;
 	}
+
+	div#return
+{
+padding: 1.5em;
+}
+
+form#Volver
+{
+	float: right;
 	
+}	
+
+input
+{
+
+background: #50B748;
+color: #FFFFFF;
+border: black 2px solid;
+
+}
+
 	blockquote
 	{
 		margin: 0;
