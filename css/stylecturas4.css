@@ -37,27 +37,30 @@ h1
 	text-shadow: black 6px 6px 4px;
 }	
 
-h2,h3,h4	
+h2
 {	
 	margin: 0.1em;
 	line-height: 1px;
 	font-size:1em;
-	text-align: center;
+	text-align: justify;
+	white-space: nowrap;
 	text-shadow: grey 6px 6px 3px;
 	color: #000000;
 }
 
-h5
+h3
 {
 	color: #000000;
+
 }
 
 ul{
 margin-top: 0.5em;
 text-align: center;
+}
 
+nav > ul > li 
 
-nav > ul > li
 {
 	border-radius: 0.5em;
 	display: block;
@@ -82,18 +85,17 @@ a{
 }
 input:focus
 {
-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;
+box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;s
 
 }
 
 
 section#contenedor
 {
-	display: block;
-	justify-content: center;
+
 	background:  #43C7F4;
 	margin-bottom: 0em;
-	max-width: 2480px;s
+	max-width: 2480px;
 	padding:0em;
 	text-align: center;
 	color: #000000;
@@ -101,10 +103,9 @@ section#contenedor
 
 div#banner
 {
-padding: 3.3em;
+	padding: 3.3em;
 background:	url(images/ECBTI-2.jpg) repeat;
 }
-		
 section#lectura1{
 
 vertical-align: top;
@@ -113,7 +114,7 @@ background: #F0B429;
 margin: 1em auto;
 margin-right: 0.5em;
 height: 540px;
-width: 400px ;
+width: 350px ;
 padding:0.5em;
 text-align: left;	
 display: inline-block;	
@@ -127,7 +128,7 @@ margin: 1em auto;
 margin-left: 0.5em;
 margin-right: 0.5em;
 height: 540px;
-width: 600px ;
+width: 400px ;
 border: black 2px solid;
 padding:0.5em;
 text-align: left;	
@@ -149,6 +150,21 @@ padding:0.5em;
 text-align: left;	
 display: inline-block;	
 color: #000000;
+}
+	
+section#lectura4{
+
+vertical-align: top;
+border: black 2px solid;
+background: #F0B429;
+margin: 1em auto;
+margin-right: 0.5em;
+height: 540px;
+width: 400px ;
+padding:0.5em;
+text-align: left;	
+display: inline-block;	
+color: #000000;
 }	
 	
 article{
@@ -157,6 +173,7 @@ article{
 	padding:0.5em;
 	margin: 0em auto;
 }	
+
 
 div#return
 {
@@ -169,7 +186,8 @@ form#Volver
 	background: #43C7F4;
 	float: right;
 	
-}	
+}
+	
 
 input
 {
@@ -185,13 +203,11 @@ footer{
 	max-width: 2480px;
 	padding:0.25em;
 	text-align: center;
-	color: #F0B429;
-	
+	color: #000000;
 
 }
 div#creditos
 {
 	background: #FFFFFF;
-	font-size:0.7em;
-		
-	}
+	font-size:0.7em;	
+}
