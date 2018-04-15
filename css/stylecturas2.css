@@ -1,0 +1,197 @@
+*{
+	padding: 0
+	margin: 0
+}
+	@font-face {
+    font-family: 'roboto_condenseditalic';
+    src: url('../font/robotocondensed-italic-webfont.woff2') format('woff2'),
+         url('/font/robotocondensed-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family: "roboto_condenseditalic";
+
+
+color:#FFFFFF;
+font-size:2em;
+
+}
+
+header
+{
+	background: #43C7F4; 
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding: 0em;
+	padding-bottom: 0em;
+}
+
+h1
+{
+	text-align: center;
+	margin-top:0em;
+	margin-bottom: 0em; 
+	color: #FFFFFF;
+	text-shadow: black 6px 6px 4px;
+}	
+
+h2
+{	
+	margin: 0.1em;
+	line-height: 1px;
+	font-size:1em;
+	text-align: center;
+	text-shadow: grey 6px 6px 3px;
+	color: #000000;
+}
+
+h3
+{
+	color: #000000;
+}
+
+ul{
+margin-top: 0.5em;
+text-align: center;
+}
+
+nav > ul > li 
+
+{
+	border-radius: 0.5em;
+	display: block;
+	border: #000000 2px solid;
+	text-align: center;
+	margin-right: : 0.4em;
+	margin-top: 0em;
+	margin: 0px 10px 0 auto;
+	padding-top: 0em;
+	float: right;
+	width: 12em;s
+	letter-spacing: 0.008em;
+	font-size:0.8em;
+	background:#F0B429;		
+	
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+
+}
+input:focus
+{
+box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;s
+
+}
+
+
+section#contenedor
+{
+
+	background:  #43C7F4;
+	margin-bottom: 0em;
+	max-width: 2480px;
+	padding:0em;
+	text-align: center;
+	color: #000000;
+}
+
+div#banner
+{
+	padding: 3.3em;
+background:	url(images/ECBTI-2.jpg) repeat;
+}
+section#lectura1{
+
+vertical-align: top;
+border: black 2px solid;
+background: #F0B429;
+margin: 1em auto;
+margin-right: 0.5em;
+height: 540px;
+width: 400px ;
+padding:0.5em;
+text-align: left;	
+display: inline-block;	
+color: #000000;	
+
+}	
+	section#lectura2{
+
+background: #F0B429;
+margin: 1em auto;
+margin-left: 0.5em;
+margin-right: 0.5em;
+height: 540px;
+width: 600px ;
+border: black 2px solid;
+padding:0.5em;
+text-align: left;	
+display: inline-block;	
+color: #000000;
+
+}
+
+section#lectura3{
+
+vertical-align: top;
+border: black 2px solid;
+background: #F0B429;
+margin: 1em auto;
+margin-right: 0.5em;
+height: 540px;
+width: 400px ;
+padding:0.5em;
+text-align: left;	
+display: inline-block;	
+color: #000000;
+}
+	
+	
+article{
+	font-size:0.7em;
+	text-align: top;
+	padding:0.5em;
+	margin: 0em auto;
+}	
+
+
+div#return
+{
+background: #43C7F4;
+padding: 1.5em;
+}
+
+form#Volver
+{
+	background: #43C7F4;
+	float: right;
+	
+}
+	
+
+input
+{
+
+background: #50B748;
+color: #FFFFFF;
+border: black 2px solid;
+}
+
+footer{
+	background:	url(images/img01.jpg) repeat;
+	margin: 0em;
+	max-width: 2480px;
+	padding:0.25em;
+	text-align: center;
+	color: #000000;
+
+}
+div#creditos
+{
+	background: #FFFFFF;
+	font-size:0.7em;	
+}
