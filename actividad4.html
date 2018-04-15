@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<body class="homepage">
+	<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+	<!-- Header -->
+	<div id="header"><!-- container i-->
+			<div class="container" align="center">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Seguridad Informática</a></h1>
+					</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+						<div class="navbar">
+						  <a href="index.html">INICIO</a>
+						   
+						  <a href="autores.html">AUTORES</a>
+						  <div class="dropdown">
+						    <button class="dropbtn">MULTIMEDIA<i class="fa fa-caret-down"></i></button>
+						    <div class="dropdown-content">
+						      <a href="Multimedia.html">VIDEOS</a>
+						      <a href="Presentaciones.html">PRESENTACIONES</a>
+
+						    </div>
+						  </div> 
+							<div class="dropdown">
+      <button class="dropbtn">ACTIVIDADES<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content"> <a href="actividad1.html">ACTIVIDAD I</a> <a href="actividad2.html">ACTIVIDAD II</a>  <a href="actividad3.html">ACTIVIDAD IIII</a> <a href="actividad4.html">ACTIVIDAD IV</a>
+		</div>
+	</div>
+	<div class="dropdown">
+						    <button class="dropbtn">LECTURAS<i class="fa fa-caret-down"></i></button>
+						    						    <div class="dropdown-content">
+						      <a href="principios de seguridad.html">PRINCIPIOS DE SEGURIDAD</a>
+						      <a href="seguridad en la internet.html">SEGURIDAD EN INTERNET</a>
+						      <a href="seguridad nivel usuario.html">SEGURIDAD NIVEL DEL USUARIO</a>
+						      <a href="isegurida en la oficina.html">SEGURIDAD EN LA OFICINA</a>
+						      <a href="evita que te hacke-en">EVITA QUE TE HACKE-EN</a>
+						    </div>
+						  </div> 
+					
+		
+  <h1>Sopa de letras del OVI de Seguridad Informática</h1>
+  
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="wordfind.js"></script> 
+    <script type="text/javascript" src="wordfindgame.js"></script> 
+</head>
+<body>
+
+    <div id='juego'></div>
+    <div id='Palabras'></div>
+    
+    <div><button id='solve'>Resolver</button></div>
+    <script>
+    var words = ['Amenaza','anomalia','anonimato','ataque','auditoria','autorizacion','red','bit','datagrama','cortafuego','cobertura','cifrado','codigo','troyano','spyware','rastreo','octeto','bye','bufer'];
+    var gamePuzzle = wordfindgame.create(words, '#juego', '#Palabras'); 
+        
+    var puzzle = wordfind.newPuzzle(words,{height: 18, width:18, fillBlanks: false});
+    wordfind.print(puzzle);   
+        
+    $('#solve').click( function() {wordfindgame.solve(gamePuzzle, words);});
+        
+    </script>
+    <DIV  class="container" align="right"><nav>
+						<ul>
+							<li><a href="index.html">Volver>>></a></li>
+						</ul>
+						
+					</nav></DIV>
+
+	<!-- Footer -->
+		<div align="center">
+		<figure><a href="https://www.unad.edu.co"><img alt="Logo UNAD" src="https://www.unad.edu.co/templates/unadgeneral/images/logoUNADMobile-HD.png" /></a></figure>
+		</div>
+				<div id="footer">
+		<div class="container" align="center">
+					
+				
+		</div>
+	<!-- /Footer -->
+	
+   		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/modernizr-custom.js"></script>
+		<script src="js/prefixfree.js"></script>
+</body>
+</html>
