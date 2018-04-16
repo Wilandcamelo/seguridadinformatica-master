@@ -888,7 +888,7 @@
 /* Banner                                                                        */
 /*********************************************************************************/
 
-	#banner
+	.banner
 	{
 		position: relative;
 		padding: 12em 0em;
@@ -896,7 +896,7 @@
 		background-size: cover;
 		color: #005883;
 	}
-#banner2 { 
+.banner2 { 
   background-image: url(../images/bannerUNAD_A.jpg);
 }
 /*********************************************************************************/
