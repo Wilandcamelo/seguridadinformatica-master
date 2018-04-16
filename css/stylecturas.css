@@ -37,7 +37,7 @@ h1
 	text-shadow: black 6px 6px 4px;
 }	
 
-h2,
+h2
 {	
 	margin: 0.1em;
 	line-height: 1px;
@@ -69,7 +69,7 @@ nav > ul > li
 	margin: 0px 10px 0 auto;
 	padding-top: 0em;
 	float: right;
-	width: 12em;s
+	width: 12em;
 	letter-spacing: 0.008em;
 	font-size:0.8em;
 	background:#F0B429;		
