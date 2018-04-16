@@ -889,15 +889,15 @@
 /*********************************************************************************/
 
 	#banner
-	{
-		position: relative;
-		padding: 12em 0em;
-		background: url(images/bannerUNAD.jpg) no-repeat center;
-		background-size: cover;
-		color: #005883;
-	}
-#banner2 { 
-  background-image: url(images/bannerUNAD_A.jpg);
+ 	{
+ 		position: relative;
+ 		padding: 12em 0em;
+ 		background: url(../images/bannerUNAD.jpg) no-repeat center;
+ 		background-size: cover;
+ 		color: #005883;
+ 	}
+	#banner2 { 
+	background-image: url(images/bannerUNAD_A.jpg);
 }
 /*********************************************************************************/
 /* Main                                                                          */
